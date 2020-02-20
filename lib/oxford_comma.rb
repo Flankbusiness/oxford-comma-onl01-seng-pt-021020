@@ -1,7 +1,6 @@
 
 
 def oxford_comma(arr)
-  var x=arr.pop
   if arr.size == 1
     return arr.join
   elsif arr.size == 2
