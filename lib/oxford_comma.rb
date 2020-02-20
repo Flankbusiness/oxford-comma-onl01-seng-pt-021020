@@ -4,7 +4,7 @@ def oxford_comma(arr)
   elsif arr.size == 2
     return arr.join(" and ")
   else 
-    var x = arr.pop
-    arr.join(", ") + ", and" + x
+    x = arr.pop
+    arr.join(", ") + ", and " + x
   end
 end
