@@ -1,5 +1,6 @@
 require.pry
 def oxford_comma(arr)
+  binding.pry
   if arr.size == 1
     return arr.join
   elsif arr.size == 2
@@ -7,6 +8,5 @@ def oxford_comma(arr)
   else 
     var x = arr.pop
     arr.join(", ") << ", and " << x
-    binding.pry
   end
 end
