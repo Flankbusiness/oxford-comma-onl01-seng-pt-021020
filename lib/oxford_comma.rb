@@ -8,6 +8,7 @@ def oxford_comma(array)
   var x = arr.pop
     arr.join(", ") + ", and" + x
   else array.length > 3
-   
+    var x = arr.pop
+    arr.join(", ") + ", and" + x
   end
 end
