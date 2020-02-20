@@ -9,5 +9,4 @@ def oxford_comma(arr)
    var x = arr.pop
     arr.join (", ") << ", and " << x
   end
-  end
 end
