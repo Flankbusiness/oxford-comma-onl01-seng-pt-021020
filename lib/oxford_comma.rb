@@ -5,4 +5,4 @@ def oxford_comma(arr)
     return arr.join(" and ")
   else 
     var x = arr.pop
-    arr.join(", ") + ", and" + x
+    arr.join(", ") + ", and " + x
