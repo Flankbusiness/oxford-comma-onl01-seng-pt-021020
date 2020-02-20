@@ -1,7 +1,6 @@
-require.pry
+
 
 def oxford_comma(arr)
-  binding.pry
   if arr.size == 1
     return arr.join
   elsif arr.size == 2
