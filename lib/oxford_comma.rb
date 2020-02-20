@@ -1,4 +1,5 @@
 require.pry
+
 def oxford_comma(arr)
   binding.pry
   if arr.size == 1
