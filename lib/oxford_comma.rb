@@ -6,7 +6,7 @@ def oxford_comma(arr)
   elsif arr.size == 2
     return arr.join(" and ")
   else 
-   var x = arr.pop
-    arr.join (", ") << ", and " << x
+   var and = arr.pop
+    arr.join (", ") << ", and " << and
   end
 end
