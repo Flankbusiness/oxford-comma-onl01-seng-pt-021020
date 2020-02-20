@@ -6,3 +6,5 @@ def oxford_comma(arr)
   else 
     var x = arr.pop
     arr.join(", ") + ", and " + x
+  end
+end
