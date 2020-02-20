@@ -1,12 +1,8 @@
-def oxford_comma(array)
-  if array.length == 1 
-    return array.first
-  elsif array.length == 2
-    array.join(" and ")
-  elsif array.length == 3
-    array.join
- 
-  else array.length > 3
-
-  end
-end
+def oxford_comma(arr)
+  if arr.size == 1
+    return arr.join
+  elsif arr.size == 2
+    return arr.join(" and ")
+  else 
+    var x = arr.pop
+    arr.join(", ") + ", and" + x
